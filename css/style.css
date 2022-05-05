@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* 스타일 시트의 인코딩을 Unicode UTF-8로 설정 */
 
 /* 스킵 네비게이션 */
 #skip {
@@ -26,7 +27,7 @@
 
 #header {
     height: 325px;
-    background: url(../img/header_bg.jpg) center top repeat-x;
+    background: url(../img/header_bg.jpg) top;
 }
 
 #footer {
@@ -35,20 +36,20 @@
 
 /* 컨텐츠 레이아웃 */
 #cont_nav {
-    background-color: #f6fdff;
+    background-color: #f9fafe;
     display: none;
 }
 
 #cont_tit {
-    background-color: #eaf7fd;
+    background-color: #f0f3fd;
 }
 
 #cont_ban {
-    background-color: #dceff7;
+    background-color: #e7ebfb;
 }
 
 #cont_cont {
-    background-color: #f6fdff;
+    background-color: #F9FAFE;
 }
 
 /* 컨테이너 */
@@ -56,9 +57,7 @@
     width: 990px;
     height: inherit;
     margin: 0 auto;
-    /* background: rgba(255,255,255,0.3); */
 }
-
 
 /* 헤더 */
 .header .header_menu {
@@ -80,7 +79,7 @@
 }
 
 .header .header_tit h1 {
-    background-color: #4aa8d4;
+    background-color: #bacae1;
     font-size: 28px;
     padding: 5px 20px 6px 20px;
     display: inline-block;
@@ -88,15 +87,17 @@
     margin-top: 40px;
     font-weight: normal;
     text-transform: uppercase;
+    border-radius: 50px;
 }
 
 .header .header_tit a {
     display: inline-block;
-    background-color: #2698cd;
+    background-color: #97afd2;
     font-size: 18px;
     color: #fff;
     padding: 5px 20px 6px 20px;
     margin-top: -5px;
+    border-radius: 50px;
 }
 
 .header .header_icon {
@@ -171,7 +172,7 @@
 
 .nav > div h3 {
     font-size: 18px;
-    color: #25a2d0;
+    color: #97afd2;
     margin-bottom: 4px;
 
 }
@@ -203,7 +204,7 @@
     text-align: center;
     padding: 5px 0;
     letter-spacing: 2px;
-    color: #2c94c4;
+    color: #97afd2;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -321,7 +322,7 @@
 }
 
 .ban img:hover {
-    border-color: #98dcbc;
+    border-color: #6186ba;
 }
 
 .ban .slick-slide {
@@ -350,12 +351,12 @@
     width: 15px;
     height: 15px;
     cursor: pointer;
-    background: #5dbfeb;
+    background: #98AFD2;
     border-radius: 50%;
 }
 
 .ban .slick-dots li.slick-active button {
-    background: #2b91c8;
+    background: #6682aa;
 
 }
 
@@ -375,20 +376,20 @@
 }
 
 .cont .col1 {
-    border-right: 1px solid #c8c8c8;
+    border-right: 1px solid #e5ebf4;
 }
 .cont .col2 {
-    border-right: 1px solid #c8c8c8;
+    border-right: 1px solid #e5ebf4;
 }
 .cont .col3 {
     margin-right: 0;
     padding-right: 0;
 }
 .cont .col4 {
-    border-right: 1px solid #c8c8c8;
+    border-right: 1px solid #e5ebf4;
 }
 .cont .col5 {
-    border-right: 1px solid #c8c8c8;
+    border-right: 1px solid #e5ebf4;
 }
 .cont .col6 {
     margin-right: 0;
@@ -409,12 +410,12 @@
 .cont .column .ico_tit {
     padding-left: 70px;
     font-size: 16px;
-    color: #2c94c4;
+    color: #97afd2;
 }
 
 .cont .column .ico_desc {
     padding-left: 70px;
-    border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid #e5ebf4;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
@@ -432,7 +433,7 @@
     background-position: 0px -420px; 
 }
 .cont .col5 .ico_img {
-    background-position: 0px -480 px; 
+    background-position: 0px -480px; 
 }
 .cont .col6 .ico_img {
     background-position: 0px -540px; 
@@ -463,7 +464,7 @@
 }
 .notice h4 {
     font-size: 14px;
-    color: #0093bd; 
+    color: #768fb3; 
     padding-bottom: 3px; 
     font-weight: bold;
 }
@@ -471,7 +472,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    background: url(../img/dot.gif) no-repeat 0 8px; 
+    background: url(../img/dot.png) no-repeat 0 8px; 
     padding-left: 8px;
 }
 
@@ -497,7 +498,7 @@
 
 .notice2 h4 {
     font-size: 14px;
-    color: #0093bd; 
+    color: #768fb3; 
     padding-bottom: 3px; 
     font-weight: bold;
 }
@@ -506,7 +507,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    background: url(../img/dot.gif) no-repeat 0 8px; 
+    background: url(../img/dot.png) no-repeat 0 8px; 
     padding-left: 8px;
 }
 
@@ -540,7 +541,7 @@
 
 .notice3 h4 {
     font-size: 14px;
-    color: #0093bd; 
+    color: #768fb3; 
     padding-bottom: 3px; 
     font-weight: bold;
 }
@@ -585,7 +586,7 @@
 /* 마우스 오버효과1 */
 .notice_hover h4 {
     font-size: 14px;
-    color: #0093bd; 
+    color: #768fb3; 
     padding-bottom: 3px; 
     font-weight: bold;
 }
@@ -730,7 +731,7 @@
 .tab_menu ul li ul li {
     float: none;
     border: 0;
-    background: url(../img/dot.gif) no-repeat 9px 8px;
+    background: url(../img/dot.png) no-repeat 9px 8px;
     padding-left: 18px;
 }
 
@@ -743,7 +744,7 @@
 }
 
 .tab_menu ul li.active {
-    background: #2c94c4;
+    background: #809eca;
 }
 
 .tab_menu ul li.active a {
@@ -763,7 +764,7 @@
 .notice4 h4 {
     font-size: 14px;
     border-bottom: 1px solid #ccc;
-    color: #0093bd; 
+    color: #768fb3; 
     font-weight: 700; 
     padding: 8px 10px;
 }
@@ -778,7 +779,7 @@
 
 .notice4 ul li {
     overflow: hidden;
-    background: url(../img/dot.gif) no-repeat 0 8px;
+    background: url(../img/dot.png) no-repeat 0 8px;
     padding-left: 8px;
     padding-bottom: 2px;
 }
@@ -813,7 +814,7 @@
 
 .gallery h4 {
     font-size: 14px;
-    color: #0093bd;
+    color: #768fb3;
     border-bottom: 1px solid #ccc;
     padding: 10px 0 8px 11px;
     font-weight: bold;
@@ -922,7 +923,7 @@
 /* 로그인 */
 
 #login_wrap {
-    background: #f2f5f4;
+    background: #F0F3FD;
     padding: 15px;
     margin-bottom: 15px;
 }
@@ -947,7 +948,7 @@
 }
 
 .login_header .lh_ip em {
-    color: #0093bd;
+    color: #cf3292;
     text-decoration: underline;
 }
 
@@ -989,7 +990,7 @@
 /* 팝업 */
 .popup h4 {
     font-size: 14px;
-    color: #0093bd;
+    color: #768fb3;
     padding-bottom: 4px;
     font-weight: 700;
 }
